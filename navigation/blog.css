@@ -1,0 +1,91 @@
+
+.cont p{
+    color: black;
+    margin-top: 15vh;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cont .parag{
+    margin-top: 0;
+    font-size: 15px;
+}
+.cont .blogimg{
+    margin-top: 0;
+    border-radius: 0;
+    border: none;
+    height: 300px;
+}
+.conta{
+    display: none;
+    position: fixed;
+    justify-content: center;  
+    top: 0;left: 0;right: 0;
+    
+}
+.conte{
+    display: flex;
+    position: fixed;
+    justify-content: center;  
+    top: 0;left: 0;right: 0;
+    
+}
+.conta .arrup{
+    
+    margin-top: 75px;
+    height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.conte .arr{
+    margin-top: 560px;
+    height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.cont .blog{
+    display: block;
+    justify-content: center;
+}
+.cont .blog em{
+    font-size: 15px;
+}
+.cont .blog p{
+    font-size: 20px;
+}
+.cont .blog img{
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    padding-left: 110px;
+}
+.cont .blog .para{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+@media only screen and (max-width:320px) and (max-width: 420px){
+    .cont p{
+        padding: 20px;
+        color: black;
+        margin-top: 20vh;
+        font-weight: 700;
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .conta .arrup{
+    
+        margin-top: 115px;
+        height: 30px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .conte .arr{
+        margin-top: 570px;
+        height: 30px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
